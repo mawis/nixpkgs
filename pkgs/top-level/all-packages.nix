@@ -25998,6 +25998,7 @@ with pkgs;
   jitsi-videobridge = callPackage ../servers/jitsi-videobridge { };
 
   kamailio = callPackage ../servers/sip/kamailio { };
+  rtpengine = callPackage ../servers/sip/rtpengine { };
 
   kanidm = callPackage ../servers/kanidm { };
 
